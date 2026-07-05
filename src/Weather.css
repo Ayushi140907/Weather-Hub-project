@@ -1,0 +1,334 @@
+/* =========================
+   Weather Container
+========================= */
+
+.Weather .weatherContainer{
+background:#111827;
+border-radius:24px;
+padding:30px;
+box-shadow:0 10px 35px rgba(0,0,0,.35);
+}
+
+.Weather{
+color:#fff;
+}
+
+/* =========================
+   Search
+========================= */
+
+.searchForm{
+margin-bottom:30px;
+}
+
+.searchBox{
+display:flex;
+align-items:center;
+gap:12px;
+width:100%;
+}
+
+.searchBox input{
+flex:1;
+height:50px;
+padding:0 18px;
+border:none;
+border-radius:30px;
+background:#1F2937;
+color:#fff;
+font-size:16px;
+outline:none;
+}
+
+.searchBox input::placeholder{
+color:#94A3B8;
+}
+
+.searchBtn,
+.locationBtn{
+width:50px;
+height:50px;
+border:none;
+border-radius:50%;
+cursor:pointer;
+font-size:20px;
+transition:.3s;
+}
+
+.searchBtn{
+background:#38BDF8;
+color:#fff;
+}
+
+.searchBtn:hover{
+background:#0EA5E9;
+}
+
+.locationBtn{
+background:#1E293B;
+color:#38BDF8;
+border:1px solid #38BDF8;
+}
+
+.locationBtn:hover{
+background:#38BDF8;
+color:#fff;
+}
+
+/* =========================
+   Forecast
+========================= */
+
+.forecastText{
+margin:25px 0 18px;
+text-align:center;
+font-size:22px;
+font-weight:600;
+color:#38BDF8;
+}
+
+/* =========================
+   Loader
+========================= */
+
+.loaderContainer{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:65vh;
+text-align:center;
+}
+
+.loaderContainer h3{
+margin-top:20px;
+color:#fff;
+font-size:24px;
+}
+
+.loaderContainer p{
+margin-top:8px;
+color:#94A3B8;
+}
+
+/* =========================
+   Footer
+========================= */
+
+.weatherFooter{
+margin-top:40px;
+padding:25px 15px;
+text-align:center;
+border-top:1px solid rgba(56,189,248,.2);
+}
+
+.weatherFooter h4{
+color:#fff;
+font-size:28px;
+margin-bottom:10px;
+}
+
+.weatherFooter p{
+color:#38BDF8;
+margin-bottom:12px;
+}
+
+.footerLine{
+width:90px;
+height:3px;
+margin:15px auto;
+border-radius:20px;
+background:linear-gradient(90deg,#38BDF8,#06B6D4);
+}
+
+.weatherFooter span{
+display:block;
+color:#94A3B8;
+margin-bottom:5px;
+}
+
+.weatherFooter h6{
+color:#fff;
+font-size:20px;
+margin-bottom:10px;
+}
+
+.weatherFooter small{
+display:block;
+color:#94A3B8;
+font-size:13px;
+margin-top:4px;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media(max-width:768px){
+
+.Weather .weatherContainer{
+padding:20px;
+}
+
+.searchBox{
+flex-wrap:wrap;
+}
+
+.searchBox input{
+width:100%;
+}
+
+.searchBtn,
+.locationBtn{
+width:48px;
+height:48px;
+}
+
+.forecastText{
+font-size:18px;
+}
+
+}
+.todayInfo{
+text-align:center;
+margin:25px 0;
+}
+
+.todayInfo h2{
+color:#38BDF8;
+font-size:30px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.todayInfo p{
+color:#CBD5E1;
+font-size:17px;
+margin:4px 0;
+}
+/* ===== Header ===== */
+
+.weatherTitle{
+text-align:center;
+font-size:56px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.weatherSubTitle{
+text-align:center;
+color:#94A3B8;
+font-size:18px;
+margin-bottom:35px;
+}
+
+/* ===== Search ===== */
+
+.searchForm{
+width:100%;
+margin-bottom:35px;
+}
+
+.searchBox{
+display:flex;
+align-items:center;
+width:100%;
+gap:12px;
+}
+
+.searchBox input{
+flex:1;
+height:56px;
+padding:0 22px;
+background:#1F2937;
+border:none;
+border-radius:35px;
+color:#fff;
+font-size:18px;
+}
+
+.searchBtn,
+.locationBtn{
+width:56px;
+height:56px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* ===== Today ===== */
+
+.todayInfo{
+text-align:center;
+margin-bottom:35px;
+}
+
+.todayInfo h2{
+font-size:42px;
+font-weight:700;
+color:#38BDF8;
+}
+
+.todayInfo p{
+font-size:18px;
+color:#CBD5E1;
+}
+
+/* ===== Weather Layout ===== */
+
+.WeatherInfo .row{
+align-items:center;
+margin-top:35px;
+}
+
+.WeatherIcon{
+display:flex;
+justify-content:center;
+margin-bottom:15px;
+}
+
+.WeatherTemperature{
+justify-content:center;
+}
+
+.weatherData{
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.infoCard{
+background:#1B2335;
+padding:18px;
+border-radius:18px;
+border:1px solid rgba(56,189,248,.18);
+text-align:center;
+}
+
+.infoCard:hover{
+border-color:#38BDF8;
+transform:translateY(-5px);
+transition:.3s;
+}
+
+.dataValue{
+font-size:22px;
+font-weight:700;
+}
+
+.dataDescription{
+margin-top:6px;
+color:#94A3B8;
+}
+
+/* ===== Fix Bootstrap ===== */
+
+.row{
+margin-left:0!important;
+margin-right:0!important;
+}
+
+.col-md-6{
+padding:15px;
+}

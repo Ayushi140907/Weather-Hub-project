@@ -1,0 +1,304 @@
+/* ==========================
+   WEATHER INFO
+========================== */
+
+.WeatherInfo{
+  margin-top:40px;
+}
+
+.locationSection{
+  text-align:left;
+  margin-bottom:15px;
+}
+
+.cityName{
+  font-size:52px;
+  font-weight:700;
+  color:#fff;
+  margin:0;
+}
+
+.countryName{
+  display:block;
+  color:#38BDF8;
+  margin-top:5px;
+  font-size:18px;
+}
+
+.weatherTime{
+  margin-top:10px;
+  color:#94A3B8;
+  font-size:15px;
+  line-height:1.8;
+}
+
+.weatherDescription{
+  margin-top:12px;
+  font-size:20px;
+  color:#38BDF8;
+  text-transform:capitalize;
+  font-weight:600;
+}
+
+/* ==========================
+   MAIN WEATHER
+========================== */
+
+.row.align-items-center{
+  margin-top:35px;
+}
+
+.WeatherIcon{
+  display:flex;
+  justify-content:center;
+}
+
+.WeatherIcon img{
+  width:150px;
+}
+
+.WeatherTemperature{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  margin-top:15px;
+}
+
+.WeatherTemperature-value{
+  font-size:80px;
+  font-weight:700;
+  color:#fff;
+  line-height:1;
+}
+
+.WeatherTemperature-degree{
+  font-size:35px;
+  color:#38BDF8;
+  margin-top:8px;
+}
+
+.unitSwitcher{
+  display:flex;
+  align-items:center;
+  margin-left:10px;
+  margin-top:18px;
+  gap:8px;
+}
+
+.unitSwitcher button{
+  border:none;
+  background:none;
+  color:#94A3B8;
+  font-size:18px;
+  cursor:pointer;
+}
+
+/* ==========================
+   WEATHER INFO
+========================== */
+
+.WeatherInfo{
+  margin-top:40px;
+}
+
+.locationSection{
+  text-align:left;
+  margin-bottom:15px;
+}
+
+.cityName{
+  font-size:52px;
+  font-weight:700;
+  color:#fff;
+  margin:0;
+}
+
+.countryName{
+  display:block;
+  color:#38BDF8;
+  margin-top:5px;
+  font-size:18px;
+}
+
+.weatherTime{
+  margin-top:10px;
+  color:#94A3B8;
+  font-size:15px;
+  line-height:1.8;
+}
+
+.weatherDescription{
+  margin-top:12px;
+  font-size:20px;
+  color:#38BDF8;
+  text-transform:capitalize;
+  font-weight:600;
+}
+
+/* ==========================
+   MAIN WEATHER
+========================== */
+
+.row.align-items-center{
+  margin-top:35px;
+}
+
+.WeatherIcon{
+  display:flex;
+  justify-content:center;
+}
+
+.WeatherIcon img{
+  width:150px;
+}
+
+.WeatherTemperature{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  margin-top:15px;
+}
+
+.WeatherTemperature-value{
+  font-size:80px;
+  font-weight:700;
+  color:#fff;
+  line-height:1;
+}
+
+.WeatherTemperature-degree{
+  font-size:35px;
+  color:#38BDF8;
+  margin-top:8px;
+}
+
+.unitSwitcher{
+  display:flex;
+  align-items:center;
+  margin-left:10px;
+  margin-top:18px;
+  gap:8px;
+}
+
+.unitSwitcher button{
+  border:none;
+  background:none;
+  color:#94A3B8;
+  font-size:18px;
+  cursor:pointer;
+}
+
+.WeatherTemperature{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+margin-top:15px;
+}
+
+.WeatherTemperature-value{
+font-size:92px;
+font-weight:700;
+line-height:1;
+color:#fff;
+}
+
+.WeatherTemperature-degree{
+font-size:40px;
+margin-top:8px;
+color:#38BDF8;
+}
+
+.WeatherTemperature-unit{
+font-size:22px;
+margin-top:15px;
+margin-left:10px;
+}
+
+.WeatherTemperature-unit a{
+text-decoration:none;
+color:#94A3B8;
+font-weight:600;
+}
+
+.WeatherTemperature-unit a.active{
+color:#38BDF8;
+}
+
+.WeatherTemperature-unit a:hover{
+color:#fff;
+}
+
+.activeUnit{
+  color:#38BDF8 !important;
+}
+
+/* ==========================
+   WEATHER CARDS
+========================== */
+
+.weatherData{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.infoCard{
+  background:#1b2335;
+  border:1px solid rgba(56,189,248,.18);
+  border-radius:18px;
+  padding:18px;
+  transition:.3s;
+}
+
+.infoCard:hover{
+  transform:translateY(-5px);
+  border-color:#38BDF8;
+}
+
+.dataValue{
+  color:#fff;
+  font-size:22px;
+  font-weight:700;
+}
+
+.dataDescription{
+  color:#94A3B8;
+  margin-top:5px;
+  font-size:15px;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+.locationSection{
+text-align:center;
+}
+
+.cityName{
+font-size:38px;
+}
+
+.weatherTime{
+text-align:center;
+}
+
+.weatherDescription{
+text-align:center;
+}
+
+.WeatherIcon{
+margin-top:25px;
+}
+
+.weatherData{
+margin-top:25px;
+}
+
+.infoCard{
+text-align:center;
+}
+
+}
