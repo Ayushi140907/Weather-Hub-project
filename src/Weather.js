@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { MutatingDots } from "react-loader-spinner";
 
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
